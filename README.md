@@ -35,7 +35,7 @@ dynamic_product
 │   ├── views.py
 │   ├── __init__.py
 |
-├── dynamic_product
+├── products
 |   ├── __init__.py  
 |   ├── asgi.py 
 |   ├── settings.py 
