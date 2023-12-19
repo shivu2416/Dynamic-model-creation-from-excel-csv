@@ -24,24 +24,36 @@ Dynamic Product project aims to be able to provide saving of dynamic excel entri
 
 ## Project Structure
 ```
-dynamic_product
-├── product 
-|   ├── migrations/ 
-|   ├── templates/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── views.py
-│   ├── __init__.py
-|
-├── products
-|   ├── __init__.py  
-|   ├── asgi.py 
-|   ├── settings.py 
-|   ├── urls.py 
-|   ├── wsgi.py 
+├── docker-compose.yml
+├── Dockerfile
+├── dynamic_model_creation
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── entrypoint.sh
+├── env.example
+├── .gitignore
 ├── manage.py
+├── products
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── templates
+│   │   ├── base.html
+│   │   └── product
+│   │       ├── product_list.html
+│   │       └── upload_excel.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+└── requirements.txt
 ```
 ## Setup Instructions
 
